@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-discovery" />
+        <module name="nacos-sentinel" />
+        <module name="sentinel" />
+      </profile>
+      <profile name="Annotation profile for nacos" enabled="true">
+        <sourceOutputDir name="../nacos/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../nacos/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-config" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-discovery" options="-parameters" />
+      <module name="sentinel" options="-parameters" />
+    </option>
+  </component>
+</project>

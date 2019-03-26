@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config/pom.xml" />
       </list>
     </option>
   </component>

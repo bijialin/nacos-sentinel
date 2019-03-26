@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-config" />
         <module name="nacos-discovery" />
-        <module name="nacos-sentinel" />
         <module name="sentinel" />
       </profile>
     </annotationProcessing>
@@ -17,7 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-discovery" options="-parameters" />
-      <module name="nacos-sentinel" options="-parameters" />
+      <module name="nacos-sentinel" options="" />
       <module name="sentinel" options="-parameters" />
     </option>
   </component>
